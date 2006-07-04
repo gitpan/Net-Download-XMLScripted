@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Net-Download-XMLScripted-XMLScripted.t
+lib/Net/Download/XMLScripted/XMLScripted.pm
+test.pl
+Input.xml

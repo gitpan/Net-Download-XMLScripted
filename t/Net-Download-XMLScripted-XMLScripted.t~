@@ -1,0 +1,21 @@
+# Before `make install' is performed this script should be runnable with
+# `make test'. After `make install' it should work as `perl Net-Download-XMLScripted-XMLScripted.t'
+
+#########################
+
+# change 'tests => 1' to 'tests => last_test_to_print';
+
+use Test::More tests => last_test_to_print;
+#BEGIN { use_ok('Net::Download::XMLScripted::XMLScripted') };
+require_ok('Net::Download::XMLScripted::XMLScripted');
+
+#########################
+
+# Insert your test code below, the Test::More module is use()ed here so read
+# its man page ( perldoc Test::More ) for help writing this test script.
+
+# Create XMLScripted Object
+$xmlScripted = Net::Download::XMLScripted::XMLScripted::->new();
+#ok( defined $xmlScripted, 'new() returned something' );
+#ok ( $xmlScripted->isa('Net::Download::XMLScripted::XMLScripted'), " and it's the right class" );
+
